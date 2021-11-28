@@ -1,0 +1,50 @@
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.exe
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\favicon.ico
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\js\site.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\LICENSE
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\LICENSE.md
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\appsettings.json
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.deps.json
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.runtimeconfig.json
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.pdb
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.PlatformAbstractions.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Nancy.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.Views.dll
+F:\Api Tester\Api Tester\Api Tester\obj\Release\net5.0\PubTmp\Out\Api Tester.Views.pdb
