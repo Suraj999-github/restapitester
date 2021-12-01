@@ -17,32 +17,34 @@
     </div>
     <div class="form-group col-6 ">
         <label for="ApiUser">ApiUser</label>
-        <input type="text" id="ApiUser" name="ApiUser" class="form-control" value="PrabhuPay" />
+        <input type="text" id="ApiUser" name="ApiUser" class="form-control" value="" />
     </div>
     <div class="form-group col-12 ">
         <label for="ApiToken">ApiToken</label>
-        <input type="text" id="ApiToken" name="ApiToken" class="form-control" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlByYWJodVBheSIsImV4cCI6MTYyNDYwMDU5MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo0NDM4Ny8iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjQ0Mzg3LyJ9.DJgSc8By9R7qQE7uPVibTNR76AifV6MYwIhuvxOSEoc" />
+        <input type="text" id="ApiToken" name="ApiToken" class="form-control" value="" />
     </div>
 
     <div class="col-12">
-        <button type="button" class="btn btn-primary" onclick="CallApi()">Call Api</button>
+        <button type="button" class="btn btn-primary" id="btnSearch" name="btnSearch" onclick="CallApi()">Call Api</button>
+    </div>
+    <div class="form-group col-6 ">
+        <label for="counter">Counter</label>
+        <input type="text" id="counter" name="counter" class="form-control" value="" readonly />
     </div>
     <div class="col-12 card-body">
         <pre id="json"></pre>
-        </div>
     </div>
+</div>
     <script>
-       // var x = [];
-        function CallApi() {
-            alert();
+     
+        function CallApi() {           
             var BaseUrl = $("#BaseUrl").val();
             var JsonVal = $("#JsonValue").val();
             var times = $("#Times").val();
             var ApiToken = $("#ApiToken").val();
             var ApiUser = $("#ApiUser").val();
-
-            for (i = 0; i < parseInt(times); i++) {
-                //  console.log(JsonVal + i);
+            for (i = 0; i < parseInt(times); i++) {  
+                $("#counter").val(i);
                 $.ajax({
                     data: {
                         BaseUrl: BaseUrl,
@@ -50,48 +52,24 @@
                         ApiToken: ApiToken,
                         ApiUser: ApiUser
                     },
-                    type: "POST",//HTTP POST Method
-                    url: "/Home/CallApi",// Controller/View
-                    success: function (response) {
-                        //console.log(response);
-                        var data = response;
-                        //parser = new DOMParser();
-                        //xmlDoc = parser.parseFromString(data.ResultCommon, "text/xml");
-                        //x = xml2json(xmlDoc)
+                    type: "POST",
+                    url: "/Home/CallApi",
+                   // async: false,
+                    beforeSend: function () {
+                        $("#btnSearch").text("Getting Details...");
+                        $("#btnSearch").prop('disabled', 'true');
+                    },
+                    complete: function () {
+                        $("#btnSearch").text("Call Api");
+                        $("#btnSearch").removeAttr('disabled');
+                    },
+                    success: function (response) {                     
+                        var data = response;                      
                         document.getElementById("json").innerHTML = JSON.stringify(data, undefined, 2);
                     }
-
                 });
             }
         }
-        //function xml2json(xml) {
-        //    debugger;
-        //    try {
-        //        var obj = {};
-        //        if (xml.children.length > 0) {
-        //            for (var i = 0; i < xml.children.length; i++) {
-        //                var item = xml.children.item(i);
-        //                var nodeName = item.nodeName;
-
-        //                if (typeof (obj[nodeName]) == "undefined") {
-        //                    obj[nodeName] = xml2json(item);
-        //                } else {
-        //                    if (typeof (obj[nodeName].push) == "undefined") {
-        //                        var old = obj[nodeName];
-
-        //                        obj[nodeName] = [];
-        //                        obj[nodeName].push(old);
-        //                    }
-        //                    obj[nodeName].push(xml2json(item));
-        //                }
-        //            }
-        //        } else {
-        //            obj = xml.textContent;
-        //        }
-        //        return obj;
-        //    } catch (e) {
-        //        console.log(e.message);
-        //    }
-        //}
+       
     </script>
 

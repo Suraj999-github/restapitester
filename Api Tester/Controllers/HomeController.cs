@@ -41,8 +41,9 @@ namespace Api_Tester.Controllers
 
         [HttpPost]
         public IActionResult CallApi(string BaseUrl,string JsonVal,string ApiToken,string ApiUser)
-        {
-            var json = JsonConvert.DeserializeObject<ApiRequestModel>(JsonVal);      
+        {           
+            JavaScriptSerializer jss = new JavaScriptSerializer();
+            var json = jss.Deserialize<dynamic>(JsonVal);
             ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
             HttpClientHandler clientHandler = new HttpClientHandler();
             clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
@@ -62,7 +63,6 @@ namespace Api_Tester.Controllers
                     {
                        
                         var result = sendResponse.Content.ReadAsStringAsync().Result;
-
                         JavaScriptSerializer js = new JavaScriptSerializer();
                         dynamic blogObject = js.Deserialize<dynamic>(result);
                         return Json(blogObject);
